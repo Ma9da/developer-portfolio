@@ -1,23 +1,15 @@
 import React, { useContext, useState } from 'react';
-import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
-import CloseIcon from '@material-ui/icons/Close';
+// import { Snackbar, IconButton, SnackbarContent } from '@material-ui/core';
+// import CloseIcon from '@material-ui/icons/Close';
 import axios from 'axios';
 import isEmail from 'validator/lib/isEmail';
 import { makeStyles } from '@material-ui/core/styles';
 import {
-    FaTwitter,
     FaLinkedinIn,
     FaGithub,
-    FaYoutube,
-    FaBloggerB,
-    FaRedditAlien,
-    FaStackOverflow,
-    FaCodepen,
-    FaInstagram,
-    FaGitlab,
     FaMediumM,
 } from 'react-icons/fa';
-import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
+// import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 
@@ -28,17 +20,19 @@ import { contactsData } from '../../data/contactsData';
 import './Contacts.css';
 
 function Contacts() {
+    // eslint-disable-next-line
     const [open, setOpen] = useState(false);
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
-
+    // eslint-disable-next-line
     const [success, setSuccess] = useState(false);
+    // eslint-disable-next-line
     const [errMsg, setErrMsg] = useState('');
 
     const { theme } = useContext(ThemeContext);
-
+    // eslint-disable-next-line
     const handleClose = (event, reason) => {
         if (reason === 'clickaway') {
             return;
@@ -128,7 +122,7 @@ function Contacts() {
     }));
 
     const classes = useStyles();
-
+    // eslint-disable-next-line
     const handleContactForm = (e) => {
         e.preventDefault();
 
@@ -282,6 +276,7 @@ function Contacts() {
 
                     <div className='contacts-details'>
                         <a
+                            href='/'
                             // href={`mailto:${contactsData.email}`}
                             className='personal-details'
                         >
@@ -293,6 +288,7 @@ function Contacts() {
                             </p>
                         </a>
                         <a
+                            href='/'
                             // href={`tel:${contactsData.phone}`}
                             className='personal-details'
                         >
