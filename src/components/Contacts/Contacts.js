@@ -276,8 +276,7 @@ function Contacts() {
 
                     <div className='contacts-details'>
                         <a
-                            href='/'
-                            // href={`mailto:${contactsData.email}`}
+                            href={`mailto:${contactsData.email}`}
                             className='personal-details'
                         >
                             <div className={classes.detailsIcon}>
