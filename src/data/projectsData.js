@@ -11,7 +11,7 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'Medical Personal Website',
-        projectDesc: 'This is a Website for a Mediacal Business showing the services and offers they have.',
+        projectDesc: 'This is a Website for a Medical Business showing the services and offers they have.',
         tags: ['HTML', 'CSS', 'Javascript'],
         code: 'https://github.com/Ma9da/Physionic--Doctor-Appointment-Website-Template',
         demo: 'https://ma9da.github.io/Physionic--Doctor-Appointment-Website-Template/',
