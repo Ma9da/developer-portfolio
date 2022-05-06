@@ -2,9 +2,9 @@
 import { BiShoppingBag, BiPencil } from "react-icons/bi";
 import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
 import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
-import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
+import { FaInternetExplorer, FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
 
- 
+
 
 export const servicesData = [
     // {
@@ -12,11 +12,21 @@ export const servicesData = [
     //     title: 'Marketing',
     //     icon: <BiShoppingBag/>
     // },
-    // {
-    //     id: 2,
-    //     title: 'Content Writing',
-    //     icon: <BiPencil /> 
-    // },
+    {
+        id: 1,
+        title: 'Web Development',
+        icon: <BsCodeSlash />
+    },
+    {
+        id: 2,
+        title: 'UI Development',
+        icon: <FaTabletAlt />
+    },
+    {
+        id: 3,
+        title: 'UI Design',
+        icon: <BiPencil />
+    },
     // {
     //     id: 3,
     //     title: 'Email Marketing',
@@ -33,11 +43,6 @@ export const servicesData = [
     //     icon: <FaChalkboardTeacher />
     // },
 
-    {
-        id: 6,
-        title: 'Web Design',
-        icon: <BsCodeSlash />
-    },
     // {
     //     id: 7,
     //     title: 'Photography',
@@ -58,11 +63,7 @@ export const servicesData = [
     //     title: 'Data Entry', 
     //     icon: <BsClipboardData />
     // },
-    // {
-    //     id: 11,
-    //     title: 'Ebook Writing',
-    //     icon: <FaTabletAlt />
-    // },
+
     // {
     //     id: 12,
     //     title: 'Audio Transcription',
