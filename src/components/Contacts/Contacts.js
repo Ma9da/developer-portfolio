@@ -10,6 +10,7 @@ import {
     FaMediumM,
 } from 'react-icons/fa';
 // import { AiOutlineSend, AiOutlineCheckCircle } from 'react-icons/ai';
+// eslint-disable-next-line 
 import { FiPhone, FiAtSign } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
 
